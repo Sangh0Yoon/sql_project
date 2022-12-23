@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check ALL Table</title>
+</head>
+<body>
+<a href="http://localhost:8000/">
+    <button>Back</button>
+</a>
+<h2>Product table</h2>
+<table>
+    <thead>
+        <tr>
+        <th>maker</th>
+        <th>model</th>
+        <th>type</th>
+    </tr>
+    </thead>
+{% for products in product %}
+    <tr>
+        <td>{{ products.maker }}</td>
+        <td>{{ products.model }}</td>
+        <td>{{ products.type }}</td>
+    </tr>
+{% endfor %}
+</table>
+<br>
+<h3>Pc table</h3>
+<table>
+    <thead>
+        <tr>
+        <th>model</th>
+        <th>speed</th>
+        <th>ram</th>
+        <th>hd</th>
+        <th>price</th>
+    </tr>
+    </thead>
+{% for pcs in pc %}
+    <tr>
+        <td>{{ pcs.model }}</td>
+        <td>{{ pcs.speed }}</td>
+        <td>{{ pcs.ram }}</td>
+        <td>{{ pcs.hd }}</td>
+        <td>{{ pcs.price }}</td>
+    </tr>
+{% endfor %}
+</table>
+<br>
+<h4>Laptop table</h4>
+<table>
+    <thead>
+        <tr>
+        <th>model</th>
+        <th>speed</th>
+        <th>ram</th>
+        <th>hd</th>
+        <th>screen</th>
+        <th>price</th>
+    </tr>
+    </thead>
+{% for laptops in laptop %}
+    <tr>
+        <td>{{ laptops.model }}</td>
+        <td>{{ laptops.speed }}</td>
+        <td>{{ laptops.ram }}</td>
+        <td>{{ laptops.hd }}</td>
+        <td>{{ laptops.screen }}</td>
+        <td>{{ laptops.price }}</td>
+    </tr>
+{% endfor %}
+</table>
+<br>
+<h5>Pc table</h5>
+<table>
+    <thead>
+        <tr>
+        <th>model</th>
+        <th>color</th>
+        <th>type</th>
+        <th>price</th>
+    </tr>
+    </thead>
+{% for printers in printer %}
+    <tr>
+        <td>{{ printers.model }}</td>
+        <td>{{ printers.color }}</td>
+        <td>{{ printers.type }}</td>
+        <td>{{ printers.price }}</td>
+    </tr>
+{% endfor %}
+</table>
+<br>
+</body>
+</html>
