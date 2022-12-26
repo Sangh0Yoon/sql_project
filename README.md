@@ -17,3 +17,4 @@
 ----------------------
 ## 🔑 설치 및 실행 방법
 ### [설치 방법](https://github.com/Sangh0Yoon/HowToInstall/blob/main/sql_project_install.md)
+.
