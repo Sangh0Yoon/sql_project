@@ -2,6 +2,9 @@
 ---------------------
 ## 💻Introduction(소개)
 + MySQL, Django, PyCharm(Python)을 활용하여 만든 테이블 생성 및 추가, 쿼리 처리를 구현한 사이트입니다.
++ category 폴더에서는 setting.py, url.py 으로 연동 설정.
++ myApp 폴더에있는 views.py를 이용하여 쿼리문 및 테이블 처리 문법 작성.
++ templates/myApp 폴더에는 웹 화면 출력을 위한 html 파일 모음
 ---------------------
 ## ⚙️Development Environment(개발 환경)
 - `window 10`
