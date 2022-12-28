@@ -3,7 +3,7 @@
 ## 💻Introduction(소개)
 + MySQL, Django, PyCharm(Python)을 활용하여 만든 테이블 생성 및 추가, 쿼리 처리를 구현한 사이트입니다.
 ---------------------
-## ⚙️개발 환경
+## ⚙️Development Environment(개발 환경)
 - `window 10`
 - `python 3.9.5`
 - **Library** : `django 4.1.4`
@@ -17,4 +17,31 @@
 ----------------------
 ## 🔑 설치 및 실행 방법
 ### [설치 방법](https://github.com/Sangh0Yoon/HowToInstall/blob/main/sql_project_install.md)
-.
+설치 방법은 위의 하이퍼링크를 통해 살펴볼 수 있다.
+----------------------
+## 🏃 실행
+1. Pycharm 실행 및 터미널 오픈
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/100823955/209782430-501167b3-8e00-4a8d-897a-3ef8d4529e17.gif)
+
+<br>
+
+2. 웹페이지 오픈
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/100823955/209782640-0a8adf95-4f2c-46a3-aa14-f5957098e092.gif)
+
+<br>
+
+3. CREATE, INSERT, DROP, CHECK 버튼을 통해 테이블 생성, 값 추가, 삭제, 확인 가능.
+(Product, Laptop, Pc, Printer의 4개의 테이블을 생성, 값 추가, 삭제, 확인 한번에 함)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/100823955/209782842-82cce5a5-48dd-4172-969b-335f0a37e1ae.gif)
+
+<br>
+
+4. 생성된 테이블의 4개의 쿼리문 처리 결과
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/100823955/209782993-06c74fb4-f981-426b-8ad5-3fe225f6627b.gif)
+
+<br>
+
+---------------------------------------
+## 📄 라이센스
+부산대학교 2022 데이터베이스[이기준 교수님] 수업 ppt 자료를 참고하였음.
+
